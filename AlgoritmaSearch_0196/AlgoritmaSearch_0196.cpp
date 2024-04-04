@@ -20,4 +20,8 @@ void input()
 	cout << "Enter element array\n";
 	cout << "---------------------------";
 	for (i = 0; i < n; i++)
-	
+	{
+		cout << "<" << (i + 1) << ">";
+		cin >> arr[i];
+	}
+}
